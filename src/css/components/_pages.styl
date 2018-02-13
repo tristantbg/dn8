@@ -1,0 +1,12 @@
+#background-image
+	width 100%
+	height 100vh
+	&.mobile
+		+above($md + 1)
+			display none
+	&:not(.mobile)
+		+below($md)
+			display none
+	img
+		display block
+		object-fit cover

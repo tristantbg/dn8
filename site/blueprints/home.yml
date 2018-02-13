@@ -1,0 +1,19 @@
+title: Home
+pages: false
+files: true
+fields:
+  text:
+    label: Footer text
+    type:  textarea
+    buttons:
+      - link
+      - page
+      - email
+  backgroundImage:
+    label: Background image
+    type: image
+    width: 1/2
+  backgroundImageMobile:
+    label: Background image mobile
+    type: image
+    width: 1/2

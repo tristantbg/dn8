@@ -1,0 +1,21 @@
+header
+	position fixed
+	top 0
+	left 0
+	width 100%
+	padding 1em
+	z-index 10
+	#site-title
+		h1
+			display none
+		svg
+			width 100%
+			display block
+	#dn8_logo
+		#stamp
+			transform-origin 953px 230px
+			+above($md + 1)
+				animation rotate 30s linear infinite
+		#stamp-text
+			+below($md)
+				display none
